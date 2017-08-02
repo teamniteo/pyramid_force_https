@@ -50,4 +50,4 @@ Releasing
 #. Update CHANGES.rst.
 #. Update setup.py version.
 #. Run ``bin/longtest``.
-#. Run ``bin/mkrelease -d pypi``.
+#. Run ``python setup.py sdist upload``.
