@@ -24,7 +24,7 @@ class EnforceHTTPS(object):
             if request.registry.settings.get('pyramid_force_https.structlog'):
                 import structlog
                 logger = structlog.getLogger(__name__)
-                logger.info('Forcing SSL', org=request.url, new=secure_url)
+                logger.info('Forcing SSL', orig=request.url, dest=secure_url)
             else:
                 logger = logging.getLogger(__name__)
                 logger.info(
