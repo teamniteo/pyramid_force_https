@@ -13,5 +13,5 @@ Changes
 ---
 
 * Initial release.
-  [zupo]
+  [dz0ny, zupo]
 
